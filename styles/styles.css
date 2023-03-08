@@ -1,0 +1,13 @@
+h1,h2 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 2px 2px 2px black;
+  }
+
+p{
+    color: tomato;
+    width: 500px;
+    border: 1px solid black;
+
+}
