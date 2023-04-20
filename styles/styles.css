@@ -1,14 +1,29 @@
 
-h1,h2 {
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 20px 0;
     color: #00539F;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgb(90, 89, 185);
+  }
+  
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 2px 2px 2px rgb(90, 89, 185);
+  }
+  
+  h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 2px 2px 2px rgb(90, 89, 185);
   }
 
-p{
-    color: tomato;
-    width: 500px;
-    border: 1px solid black;
-
-}
+  p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-size: 12;*/
+  }
