@@ -13,6 +13,7 @@ h1 {
     padding: 20px 0;
     color: #00539F;
     text-shadow: 2px 2px 2px rgb(90, 89, 185);
+    text-align: center;
   }
   
   h3 {
@@ -25,5 +26,17 @@ h1 {
 
   p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
     /*font-size: 12;*/
+  }
+
+.crumb {
+    display: inline-block;
+    padding: 20px;
+    padding-left: 290px;
+    padding-right: 20px;
+}
+
+img {
+    margin: 10px;
   }
