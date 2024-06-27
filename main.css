@@ -1,5 +1,12 @@
+
+
 .default{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.img{
+    mask-image: linear-gradient(red 80%, transparent);
+    
 }
