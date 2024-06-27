@@ -1,3 +1,17 @@
+.default{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logicaprog{
+  display: flex;
+}
+
+/* .img{
+  mask-image: linear-gradient(red 80%, transparent);
+}  En espera de hacer pruebas*/ */
+
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
