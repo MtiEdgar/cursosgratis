@@ -1,0 +1,14 @@
+Crear un nuevo repositorio desde línea de comandos:
+
+touch README.md
+git init
+git switch -c main
+git add README.md
+git commit -m "first commit"
+git remote add origin https://codeberg.org/EdgarRamirez/PaginaCursosGratis.git
+git push -u origin main
+
+
+Hacer push de un repositorio existente desde línea de comandos:
+git remote add origin https://codeberg.org/EdgarRamirez/PaginaCursosGratis.git
+git push -u origin main
