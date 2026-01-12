@@ -12,3 +12,26 @@ git push -u origin main
 Hacer push de un repositorio existente desde línea de comandos:
 git remote add origin https://codeberg.org/EdgarRamirez/PaginaCursosGratis.git
 git push -u origin main
+
+
+https://EdgarRamirez.codeberg.page[/REPOSITORY][/@BRANCH]
+https://USERNAME.codeberg.page[/REPOSITORY][/@BRANCH]
+
+
+
+…or create a new repository on the command line
+
+echo "# cursosgratis" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MtiEdgar/cursosgratis.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/MtiEdgar/cursosgratis.git
+git branch -M main
+git push -u origin main
