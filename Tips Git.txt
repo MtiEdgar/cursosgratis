@@ -7,6 +7,8 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://codeberg.org/EdgarRamirez/PaginaCursosGratis.git
 		      https://codeberg.org/EdgarRamirez/PaginaCursosGratis.git
+git remote add origin https://codeberg.org/EdgarRamirez/pages.git
+
 git push -u origin main
 
 
