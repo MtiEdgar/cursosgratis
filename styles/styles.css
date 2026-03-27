@@ -77,6 +77,19 @@ img {
   animation: glitch 10s infinite;
 }
 
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
 /* Define the glitch animation */
 @keyframes glitch {
   0% {
